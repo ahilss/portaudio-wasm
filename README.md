@@ -1,3 +1,11 @@
+# portaudio-wasm - PortAudio with WASM host api
+
+## Build
+
+    mkdir build && cd build
+    emcmake cmake -DWASM=1 $PORTAUDIO_WASM_ROOT
+    emmake make
+
 # PortAudio - portable audio I/O library
 
 PortAudio is a portable audio I/O library designed for cross-platform
